@@ -8,9 +8,10 @@ int main(){
         printf("You failed.");        
     }
     else{
-        printf("You passed.");
+        printf("You passed.\n");
     }
-    
+    printf("With: ");
+
     if( grade > 90){
     	printf("A");
 	}
@@ -18,13 +19,10 @@ int main(){
 		printf("B");
 	}
 	else if( grade > 55){
-		pritnf("C");
+		printf("C");
 	}
 	else if(grade > 45 ){
-		printf("D");
-	}
-	else{
-		printf("F");
+		printf ("D");
 	}
 
     return 0;
