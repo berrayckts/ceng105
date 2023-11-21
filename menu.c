@@ -18,6 +18,7 @@ int main(){
 			printf("How are you?\n");
 			break;
 		case 3:
+			printf("Goos bye.\n");
 			break;
 		default:
 			while (ch_1!= 1 && ch_1!=2 && ch_1!=3){
