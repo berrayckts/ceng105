@@ -7,7 +7,7 @@ int main(){
 	do {
 		
 	printf("1. Print Hello.\n2. Print How are you?.\n3. Exit.\n");
-	scanf(" %d", &ch_1);
+	scanf(" %d", &ch_1);     
 	
 	switch(ch_1){
 		
