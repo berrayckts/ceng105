@@ -14,12 +14,15 @@ int main(){
 		case 1:
 			printf("Hello.\n");
 			break;
+		
 		case 2:
 			printf("How are you?\n");
 			break;
+		
 		case 3:
 			printf("Goos bye.\n");
 			break;
+		
 		default:
 			while (ch_1!= 1 && ch_1!=2 && ch_1!=3){
 				printf("1. Print Hello.\n2. Print How are you?.\n3.Exit.\n");
