@@ -6,8 +6,8 @@ int main(){
 	char ch_2;
 	do {
 		
-	printf("1. Print Hello.\n2. Print How are you?.\n3. Exit.\n");
-	scanf(" %d", &ch_1);     
+	printf("1. Print: Hello.\n2. Print: How are you?.\n3. Print:Exit.\n");
+	scanf(" %d", &ch_1);
 	
 	switch(ch_1){
 		
